@@ -1,0 +1,28 @@
+nav {
+  color: white;
+  position: fixed;
+  display: inline;
+}
+
+.differentFont {
+  font-family: serif;
+}
+
+#landing {
+  background: url('../images/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: grayscale(100%);
+  height: 100%;
+}
+
+.column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.projectImage {
+  height: 20rem;
+}
