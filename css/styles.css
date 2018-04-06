@@ -6,6 +6,9 @@ nav {
 
 .differentFont {
   font-family: serif;
+  color: gray !important;
+  border: 2px rgb(50,50,50) solid;
+  padding: 4px;
 }
 
 #landing {
@@ -14,6 +17,11 @@ nav {
   background-size: cover;
   filter: grayscale(100%);
   height: 100%;
+}
+
+#title {
+  font-size: 4rem;
+  color: white;
 }
 
 .column {
@@ -25,4 +33,98 @@ nav {
 
 .projectImage {
   height: 20rem;
+}
+
+.onpage {
+  text-decoration: underline !important;
+}
+
+@media only screen and (min-width: 1024px) {
+    .mobilemenu {
+      display: none;
+      height: 0px;
+      width: 0px;
+    }
+
+    #map {
+      width: 100vw;
+      height: 70vh;
+    }
+
+    #phoneText {
+      display: none;
+    }
+
+    #tabletText {
+      display: none;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 769px){
+
+
+    #phoneText {
+      display: none;
+    }
+
+    #desktopText {
+      display: none;
+    }
+
+    #map {
+      width: 100vw;
+      height: 60vh;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+
+    #phoneText {
+      display: block;
+    }
+
+    #tabletText{
+      display: none;
+    }
+
+    #desktopText {
+      display: none;
+    }
+
+    #map {
+      width: 100vw;
+      height: 50vh;
+    }
+}
+
+.textOnPage {
+  color: rgb(55,25,25);
+  margin-left: 1rem;
+}
+
+.footer {
+  background-color: black;
+  color: turquoise;
+  text-decoration: none;
+  padding: 2rem;
+}
+
+a:hover {
+  color: turquoise;
+}
+
+.carousel-cell {
+  margin-right: 20vw;
+  overflow: hidden;
+}
+
+.carousel-cell img {
+  min-height: 40vh;
+  max-height: 70vh;
+  width: auto;
+}
+
+.carousel {
+  margin-bottom: 5rem;
 }

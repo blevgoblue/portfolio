@@ -5,21 +5,7 @@
   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="css/styles.css"/>
-  <title>About Me</title>
-
-
-   <script>
-     function createMap() {
-
-       var centerOfMap = {lat: 42.277540, lng: -83.742838};
-       var map = new google.maps.Map(document.getElementById('map'), {
-         zoom: 7,
-         center: centerOfMap,
-         mapTypeId: 'satellite'
-       });
-     }
-   </script>
-
+  <title>Interests and Activities</title>
 </head>
 <body>
 
@@ -32,11 +18,11 @@
 
 
           <div class="mobilemenu">
-              <a class="navbar-item onpage" href="about.html">
+              <a class="navbar-item" href="about.html">
     About
   </a>
 
-              <a class="navbar-item" href="interests.html">
+              <a class="navbar-item onpage" href="interests.html">
     Interests
   </a>
 
@@ -53,11 +39,11 @@
           </div>
 
           <div class="navbar-end">
-              <a class="navbar-item onpage" href="about.html">
+              <a class="navbar-item" href="about.html">
       About
     </a>
 
-              <a class="navbar-item" href="interests.html">
+              <a class="navbar-item onpage" href="interests.html">
       Interests
     </a>
 
@@ -68,25 +54,57 @@
           </div>
       </div>
   </nav>
-</header>
-<br/>
-<h1 class="textOnPage has-text-left-desktop has-text-centered is-size-1">
-Hello!
-</h1>
-<br/>
-<div class="columns">
-<p class="column  textOnPage has-text-left-desktop has-text-centered is-size-4">
-I am a senior at the University of Michigan about to receive a Bachelor's of Science in Information in the very near future.  After graduation, in the summer of 2018, I am excited to move to California for my first full-time job.  To see my resume, click through to the "Reach out" link below.
-</p>
-<br/>
-<p class="column textOnPage has-text-left-desktop has-text-centered is-size-4">
-This site lists some of my interests and my contact information should you wish to reach out -- I promise I don't bite!
-</p>
+  <header>
+
+
+<div class="columns is-tablet">
+  <div class="column is-half-tablet">
+    <img class="projectImage" src="images/iphone.png"/>
+    <center><h1>Building an App Business</h1></center>
+  </div>
+
+  <div class="column is-half-tablet">
+    <img class="projectImage" src="images/soccer.jpeg"/>
+    <center><h1>Soccer</h1></center>
+  </div>
+
 </div>
-<br/>
-<br/>
-<h2 class="textOnPage is-size-3">Home for the last four years: Ann Arbor</h2>
-<div id="map"></div>
+
+
+<div class="columns is-tablet">
+  <div class="column is-half-tablet">
+    <img class="projectImage" src="images/code.jpg"/>
+    <center><h1>Occassional Coding</h1></center>
+  </div>
+
+  <div class="column is-half-tablet">
+    <img class="projectImage" src="images/um.png"/>
+    <center><h1>UM Sports</h1></center>
+  </div>
+
+</div>
+
+<div class="columns is-tablet">
+<div class="column is-half-tablet">
+  <img class="projectImage" src="images/travel.jpg"/>
+  <center><h1>Travel</h1></center>
+</div>
+
+<div class="column is-half-tablet">
+  <img class="projectImage" src="images/umsi.png"/>
+  <center><h1>UM SI</h1></center>
+</div>
+
+</div>
+
+<div class="columns is-tablet">
+
+  <div class="column is-half-tablet">
+    <img class="projectImage" src="images/nightlife.jpg"/>
+    <center><h1>Nightlife</h1></center>
+  </div>
+</div>
+
 
 <footer class="footer">
   <div class="container">
@@ -106,9 +124,6 @@ This site lists some of my interests and my contact information should you wish 
   </div>
 </footer>
 
-  <script async defer
-   src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWd0H4tcK86DOa9yoYSnQ07_74raFcCB0&callback=createMap">
-   </script>
 
  </body>
 </html>

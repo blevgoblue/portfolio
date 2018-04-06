@@ -84,14 +84,6 @@ html {
           box-sizing: inherit;
 }
 
-img,
-embed,
-object,
-audio,
-video {
-  max-width: 100%;
-}
-
 iframe {
   border: 0;
 }
@@ -182,11 +174,6 @@ hr {
   display: block;
   height: 1px;
   margin: 1.5rem 0;
-}
-
-img {
-  height: auto;
-  max-width: 100%;
 }
 
 input[type="checkbox"],
